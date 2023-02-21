@@ -1,7 +1,7 @@
 let homeScore = document.getElementById("home");
 let guestScore = document.getElementById("guest");
-let homeTeamBadge = document.getElementsByClassName("home-team-badge");
-let guestTeamBadge = document.getElementsByClassName("guest-team-badge");
+let homeTeamBadge = document.getElementsByClassName("home-badge");
+let guestTeamBadge = document.getElementsByClassName("guest-badge");
 
 let home = 0;
 let guest = 0;

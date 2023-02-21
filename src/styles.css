@@ -26,10 +26,6 @@ h2{
     margin: 6% 5%;
 }
 
-/* .score-board{
-    position: relative;
-} */
-
 .score{
     padding: 0;
     margin: 0 auto;
@@ -57,7 +53,7 @@ button {
     width: 20%;
 }
 
-.home-team-badge {
+.home-badge {
     position: relative;
     color: #000;
     background-color: white;
@@ -69,7 +65,7 @@ button {
     display: none;
 }
 
-.guest-team-badge {
+.guest-badge {
     position: relative;
     color: #000;
     background-color: white;
