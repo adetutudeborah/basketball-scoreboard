@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b244a;
+    color: #ffff;
+}
+
+.container {
+    margin: 8% auto;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+
+h2{
+    font-family: 'Cursed Timer ULiL', sans-serif;                                           
+    color: #F94F6D;
+    font-size: 9em;
+    font-weight: 400;
+    text-align: center;
+    padding: 10% 0;
+
+}
+
+.score{
+    padding: 0;
+    margin: 0 auto;
+    background-color: #080001;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif;                                           
+    color:  #9AABD8;
+    background-color: #1b244a;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 3px;
+    Width: 50px;
+    Height: 50px;
+}
