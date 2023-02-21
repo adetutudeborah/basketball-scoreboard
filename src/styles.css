@@ -57,7 +57,18 @@ button {
     width: 20%;
 }
 
-.home-team-badge,
+.home-team-badge {
+    position: relative;
+    color: #000;
+    background-color: white;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 35%;
+    margin: 0;
+    display: none;
+}
+
 .guest-team-badge {
     position: relative;
     color: #000;
