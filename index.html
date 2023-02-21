@@ -11,33 +11,42 @@
     <link rel="stylesheet" href="src/styles.css" />
 </head>
     <body>
-    <div class="row container text-center">
+    <div class="score-container">
+       
+        <div class="row text-center">
 
-        <div class="col-6 scoreboard">
-            <h1 class="mb-4">HOME</h1>
-            <div class="score text-center">
-            <h2>0</h2>
+            <div class="col-md-6 scoreboard">
+                <h1 class="mt-4 mb-4">HOME</h1>
+                <div class="score text-center">
+                <h2 id="home">0</h2>
+                </div>
+                <div class="increment-button mt-4">
+                    <button onclick="plusOne()">+1</button>
+                    <button onclick="plusTwo()">+2</button>
+                    <button onclick="plusThree()">+3</button>
+                </div>
             </div>
-            <div class="increment-button mt-4">
-                <button>+1</button>
-                <button>+2</button>
-                <button>+3</button>
+
+            <div class="col-md-6 scoreboard">
+                <h1 class="mt-4 mb-4">GUEST</h1>
+                <div class="score text-center">
+                <h2 id="guest">0</h2>
+                </div>
+                <div class="increment-button mt-4">
+                    <button onclick="scorePlusOne()">+1</button>
+                    <button onclick="scorePlusTwo()">+2</button>
+                    <button onclick="scorePlusThree()">+3</button>
+                </div>
             </div>
         </div>
 
-        <div class="col-6 scoreboard">
-            <h1 class="mb-4">GUEST</h1>
-            <div class="score text-center">
-            <h2>0</h2>
-            </div>
-            <div class="increment-button mt-4">
-                <button>+1</button>
-                <button>+2</button>
-                <button>+3</button>
-            </div>
-        </div>
-        
-    </div>
+       <div class="text-center mt-5">
+        <button class="text-center new-game mt-5" onclick="resetScore()">NEW GAME</button>
+       </div>
+   </div>
+
+ 
+
         <script src="src/script.js">
         </script>
     </body>
